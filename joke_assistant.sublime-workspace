@@ -1,0 +1,450 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"feed",
+				"feed_url"
+			],
+			[
+				"Feed",
+				"Feed"
+			],
+			[
+				"tit",
+				"titlestring"
+			],
+			[
+				"title",
+				"titlelist"
+			],
+			[
+				"ar",
+				"article"
+			],
+			[
+				"d",
+				"dailyMail"
+			],
+			[
+				"art",
+				"articletitle"
+			],
+			[
+				"try",
+				"try	Try/Except"
+			],
+			[
+				"rest",
+				"restofword_new"
+			],
+			[
+				"if",
+				"if	If Condition"
+			],
+			[
+				"num",
+				"numOfDonuts"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "ArticleFeed.py",
+			"settings":
+			{
+				"buffer_size": 980,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "\nparsedfeed = feedparser.parse(feed_url)\n		print parsedfeed",
+			"settings":
+			{
+				"buffer_size": 59,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "test.py",
+			"settings":
+			{
+				"buffer_size": 1597,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "testflask.py",
+			"settings":
+			{
+				"buffer_size": 427,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "ano.py",
+			"settings":
+			{
+				"buffer_size": 328,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"command_palette":
+	{
+		"height": 252.0,
+		"selected_items":
+		[
+			[
+				"",
+				"Set Syntax: Python"
+			]
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 426.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/george/Library/Application Support/Sublime Text 2/Packages/User/Python.sublime-settings",
+		"/Users/george/Documents/udacity/final_project/:usr:bin:env python.py",
+		"/Volumes/disk1/Udacity/lesson_3a_movie_website/fresh_tomatoes.py",
+		"/Volumes/disk1/Udacity/sms_send1.py",
+		"/Volumes/disk1/Udacity/short_sms_code.py",
+		"/Applications/shotgun.app/Contents/Info.plist",
+		"/Users/george/Documents/draw_many_circles",
+		"/Users/george/Documents/calendar_project/main.py.bak2.py",
+		"/Users/george/Documents/calendar_project/calendarExample.py",
+		"/Users/george/Documents/calendar_project/main.py",
+		"/Users/george/Documents/calendar_project/targetRest.py",
+		"/Users/george/Desktop/Pixit Chat/Notes For Andew",
+		"/Volumes/disk1/044_lb_010_lg10_v005.05.nk",
+		"/Users/george/Documents/calendar_project/test.py",
+		"/Users/george/Downloads/gdata-2.0.18/samples/calendar/testCal.py",
+		"/Users/george/Downloads/gdata-2.0.18/samples/calendar/testmodule.py",
+		"/Users/george/Downloads/gdata-2.0.18/samples/calendar/calendarExample.py",
+		"/Users/george/Documents/calendar_project/calendarSnippet.py"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"def articlesTitlesList(feed_url):\n	# 	print \"cat\"\n	\n	# 	for article in article_source.entries:\n	# 	print article['title']\n",
+			"def",
+			"self",
+			"parse()",
+			"\n",
+			"return",
+			"print",
+			"10",
+			"1",
+			"print",
+			"dailyMail",
+			"10",
+			"Url",
+			"():	",
+			"	\n",
+			"re.sea",
+			"toggle",
+			"re.search",
+			"re",
+			"modal",
+			"toggle",
+			"school_of_rock",
+			")",
+			"storyline",
+			"get_object",
+			"PrintUserCalendars",
+			"_PrintUserCalendars",
+			"Run",
+			"sample",
+			"CalendarExample",
+			"Search",
+			"Full",
+			"Ful",
+			"te ",
+			"te",
+			"2014",
+			"DateRange",
+			"Run",
+			"Read",
+			"mov",
+			"library",
+			"read",
+			"my.com"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"ldap.blue-bolt.local"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "ArticleFeed.py",
+					"settings":
+					{
+						"buffer_size": 980,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								732,
+								732
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 195.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"settings":
+					{
+						"buffer_size": 59,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1,
+								1
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "test.py",
+					"settings":
+					{
+						"buffer_size": 1597,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								465,
+								469
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 503.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "testflask.py",
+					"settings":
+					{
+						"buffer_size": 427,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								358,
+								358
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "ano.py",
+					"settings":
+					{
+						"buffer_size": 328,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								309,
+								309
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 276.0,
+	"status_bar_visible": true
+}
