@@ -23,17 +23,6 @@ class ArticleFeed():
 			index_list_of_lists.append(pairing_list)
 		return index_list_of_lists
 
-		
-	def getArticlesShortListFromIndex(self, indexchoicestring):
-		index_list_of_lists = self.articlesTitlesList()
-		indexChoiceList = indexchoicestring.split(" ")
-		article_shortlist = []
-		for num in indexChoiceList:
-			for sublist in index_list_of_lists:
-				if str(sublist[0]) == str(num):
-					article_shortlist.append(sublist[1])
-		return article_shortlist
-
 
 
 	def articlesLinksList(self):
@@ -50,14 +39,17 @@ class ArticleFeed():
 
 
 class ArticleShortList():
-	def __init__(self, timestamp, articleDictList):
+	def __init__(self, timestamp):
 		self.timestamp = timestamp
-		self.articleDictList = articleDictList
-	def printShortListedArticlesTitles(self):
-		num = 0
-		for article in parsedfeed.entries:
-			print str(num) + "-" + article['title']
-			num = num + 1
+	
+	def getArticlesShortListFromIndexChoice(self, index_article_list, indexchoicestring):
+		indexChoiceList = indexchoicestring.split(" ")
+		article_shortlist = []
+		for num in indexChoiceList:
+			for sublist in index_article_list:
+				if str(sublist[0]) == str(num):
+					article_shortlist.append(sublist[1])
+		return article_shortlist
 
 
 
