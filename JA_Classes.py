@@ -23,8 +23,6 @@ class ArticleFeed():
 			index_list_of_lists.append(pairing_list)
 		return index_list_of_lists
 
-
-
 	def articlesLinksList(self):
 		parsedfeed = feedparser.parse(self.feed_url)
 		print parsedfeed
@@ -42,14 +40,40 @@ class ArticleShortList():
 	def __init__(self, timestamp):
 		self.timestamp = timestamp
 	
+	# Get the list of lists generated ArticleFeed instance and the choices for shortlist and return those article tiles as a list
+	# Worth keeping as class as they may be more than one short list needed - if not convert to module or keep in script.
+
 	def getArticlesShortListFromIndexChoice(self, index_article_list, indexchoicestring):
 		indexChoiceList = indexchoicestring.split(" ")
 		article_shortlist = []
+		print "---------"
+		print "shortlist"
+		print "---------"
 		for num in indexChoiceList:
 			for sublist in index_article_list:
 				if str(sublist[0]) == str(num):
 					article_shortlist.append(sublist[1])
+					print sublist[1]
 		return article_shortlist
+
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
