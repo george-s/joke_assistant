@@ -1,2 +1,9 @@
 {
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": "/Volumes/disk1/playpen/dev/joke_assistant"
+		}
+	]
 }

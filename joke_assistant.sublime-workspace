@@ -4,10 +4,6 @@
 		"selected_items":
 		[
 			[
-				"name",
-				"name"
-			],
-			[
 				"feed",
 				"feed_url"
 			],
@@ -55,11 +51,19 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "ArticleFeed.py",
+			"settings":
+			{
+				"buffer_size": 2152,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "Packages/Python/Python.sublime-build",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 252.0,
 		"selected_items":
 		[
 			[
@@ -74,12 +78,6 @@
 		"height": 426.0,
 		"history":
 		[
-			"glue ",
-			"glue cls",
-			"clear",
-			"glue help",
-			"glue -h",
-			"glue clear"
 		]
 	},
 	"distraction_free":
@@ -91,25 +89,8 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
-	"expanded_folders":
-	[
-		"/Volumes/disk1/playpen/dev/joke_assistant/.sublime",
-		"/Volumes/disk1/playpen/dev/joke_assistant/flask"
-	],
 	"file_history":
 	[
-		"/Volumes/disk1/playpen/dev/joke_assistant/joke_assistant.py",
-		"/Volumes/disk1/playpen/dev/joke_assistant/ArticleFeed.py",
-		"/Volumes/disk1/playpen/dev/joke_assistant/flask/terminal.glue",
-		"/Volumes/disk1/playpen/dev/joke_assistant/terminal.glue",
-		"/Volumes/disk1/playpen/dev/joke_assistant/.sublime/joke_assistant.sublime-project",
-		"/Volumes/disk1/playpen/dev/FirstBlog/blog/views.py",
-		"/Volumes/disk1/playpen/dev/FirstBlog/blog/admin.py",
-		"/Volumes/disk1/playpen/dev/FirstBlog/blog/templates/index.html",
-		"/Volumes/disk1/playpen/dev/FirstBlog/blog/models.py",
-		"/Volumes/disk1/playpen/dev/tp_api_tests/python/python",
-		"/Applications/bblink.app/Info.plist.bak",
-		"/Volumes/disk1/courses/Udacity/github/game_new.js",
 		"/Users/george/Library/Application Support/Sublime Text 2/Packages/User/Python.sublime-settings",
 		"/Users/george/Documents/udacity/final_project/:usr:bin:env python.py",
 		"/Volumes/disk1/Udacity/lesson_3a_movie_website/fresh_tomatoes.py",
@@ -131,14 +112,13 @@
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
-		"height": 93.0,
+		"height": 0.0,
 		"where_history":
 		[
-			""
 		]
 	},
 	"find_state":
@@ -146,13 +126,6 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"barry",
-			"posts",
-			"postss",
-			"posta",
-			"post",
-			"postss",
-			"spacr",
 			"def articlesTitlesList(feed_url):\n	# 	print \"cat\"\n	\n	# 	for article in article_source.entries:\n	# 	print article['title']\n",
 			"def",
 			"self",
@@ -203,8 +176,6 @@
 		"regex": false,
 		"replace_history":
 		[
-			"larry",
-			"barry = JokeIdea('queeninrome', 'setup', 'the queen was in rome admiring the Cistene Chapel', None, 'http://www.dailymail.co.uk/news/index.rss')\nbarry.printSetup()\nbarry.printPunch()",
 			"ldap.blue-bolt.local"
 		],
 		"reverse": false,
@@ -216,18 +187,48 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "ArticleFeed.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2152,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 34.0
+		"height": 0.0
 	},
 	"input":
 	{
-		"height": 404.0
+		"height": 0.0
 	},
 	"layout":
 	{
@@ -254,7 +255,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 347.0
+		"height": 100.0
 	},
 	"output.find_results":
 	{
